@@ -20,7 +20,7 @@ if st.button("Proses"):
 
     num = float(np.asarray(result))
     st.info(num)
-    if num == 0:
+    if num < 1:
         st.info("Berawan")
     elif num <20:
         st.info("Hujan Ringan")
