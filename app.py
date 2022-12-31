@@ -22,13 +22,13 @@ if st.button("Proses"):
     st.info(num)
     if num < 1:
         st.info("Berawan")
-    elif num <20:
+    elif num <10:
         st.info("Hujan Ringan")
-    elif num <50:
+    elif num <20:
         st.info("Hujan Sedang")
-    elif num <100:
+    elif num <30:
         st.info("Hujan Lebat")
-    elif num <150:
+    elif num <40:
         st.info("Hujan sangat lebat")
     else:
         st.info("Hujan ekstrem")
