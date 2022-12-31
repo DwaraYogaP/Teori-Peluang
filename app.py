@@ -19,6 +19,7 @@ if st.button("Proses"):
     result = regresi.predict([[temp_avg, temp_min, temp_max, air, wind]])
 
     num = float(np.asarray(result))
+    st.info(num)
     if num == 0:
         st.info("Berawan")
     elif num <20:
